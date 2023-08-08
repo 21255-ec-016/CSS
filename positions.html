@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Positions in CSS</title>
+	<style type="text/css">
+	.d1{
+		height: 300px;
+		width: 300px;
+		float: left;
+		background-color: yellowgreen;
+		position: static;
+		border: 3px solid;
+	}	
+	.d2{
+		height: 300px;
+		width: 300px;
+		float: left;
+		background-color: pink;
+		position:relative;
+		border: 3px solid;
+		top:20px;
+		left: 40px;
+	}
+	.c{
+		height: 600px;
+		width: 600px;
+		border: 2px solid red;
+		position: relative;
+        float: left;
+	}	
+	.d3{
+		height: 300px;
+		width: 300px;
+		float: left;
+		background-color: skyblue;
+		position: absolute;
+		border: 3px solid;
+		top: 40px;
+		right: 30px;
+	}
+
+	.d4{
+		height: 300px;
+		width: 300px;
+		float: left;
+		background-color: yellow;
+		position: fixed;
+		border: 3px solid;
+/*		top: 40px;*/
+        left: 950px;
+	}	
+	</style>
+</head>
+<body>
+<div class="d1"><h4>static</h4></div>
+<div class="d2"><h4>relative</h4></div>
+<div class="c">
+<div class="d3"><h4>absolute</h4></div>
+</div>
+<div class="d4"><h4>fixed</h4></div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+/*h2{
+	color: orange;
+}
+input[type]{
+	color:royalblue;
+}
+input[type="text"]{
+	color:darkred;
+}
+input[type="number"]{
+	color: blueviolet;
+}
+a[href]{
+	background-color:green ;
+}
+img[src]{
+ height: 50px;
+ width: 50px;
+}*/
+
+
+a:link{
+	color: green;
+}
+a:visited{
+	color:black;
+}
+a:hover{
+	color: darkorange;
+	font-size: 50px;
+}
+/*attribute selector*/
+/*}
+
+a:active{
+	color: blue;
+}
+div{
+	height: 200px;width: 200px;background-color: greenyellow;
+}
+div:hover{
+	height: 200px;
+	width: 200px;
+	background-color:red ;
+}*/
+
+
+
+
+
+body{
+	background-image: url(bg.png);
+	background-repeat: repeat;
+/*	background-size: cover;*/
+}
